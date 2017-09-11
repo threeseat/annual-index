@@ -64,19 +64,7 @@
 	
 	<!--5. Author Template-->
 	
-	<xsl:template name="author" xml:space="preserve">
-		<xsl:for-each select="/article/front/article-meta/contrib-group">
-			<xsl:choose>
-				<xsl:when test="/article/front/article-meta/contrib-group/contrib[@contrib-type='reviewer']"><dc:creator>Reviewed by <xsl:value-of select="/article/front/article-meta/contrib-group/contrib/name/given-names"/> <xsl:value-of select="/article/front/article-meta/contrib-group/contrib/name/surname"/></dc:creator><xsl:for-each select="//article/front/article-meta/product[@product-type ='book']/string-name"><dc:creator><xsl:value-of select="/article/front/article-meta/product/string-name/given-names"/> <xsl:value-of select="/article/front/article-meta/product/string-name/surname"/></dc:creator></xsl:for-each>
-			</xsl:when>
-				<xsl:otherwise>
-					<xsl:for-each select="/article/front/article-meta/contrib-group"><dc:creator><xsl:value-of select="/article/front/article-meta/contrib-group/contrib/name/given-names"/> <xsl:value-of select="/article/front/article-meta/contrib-group/contrib/name/surname"/></dc:creator></xsl:for-each>
-				
-				
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:for-each>
-	</xsl:template>
+	<xsl:template name="author" xml:space="preserve" match="//article/front/article-meta/contrib-group"><xsl:choose><xsl:when test="/article/front/article-meta/contrib-group/contrib[@contrib-type='reviewer']"><dc:creator>Reviewed by <xsl:value-of select="/article/front/article-meta/contrib-group/contrib/name/given-names"/> <xsl:value-of select="/article/front/article-meta/contrib-group/contrib/name/surname"/></dc:creator><xsl:for-each select="//article/front/article-meta/product[@product-type ='book']/string-name"><dc:creator><xsl:value-of select="./given-names"/> <xsl:value-of select="./surname"/></dc:creator></xsl:for-each></xsl:when><xsl:otherwise><xsl:for-each select="//article/front/article-meta/contrib-group"><dc:creator><xsl:value-of select="./contrib/name/given-names"/> <xsl:value-of select="./contrib/name/surname"/></dc:creator></xsl:for-each></xsl:otherwise></xsl:choose></xsl:template>
 	
 	
 	
