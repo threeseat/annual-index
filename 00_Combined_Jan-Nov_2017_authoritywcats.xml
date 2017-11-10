@@ -11,7 +11,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>Our new website</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -114,7 +114,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Electron microscopy gets a multicolor makeover</title>
 		<description>Selective deposition of lanthanide elements picks out molecular features from the background.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Chang</surname>
 				<given-names>Sung</given-names>
@@ -139,7 +139,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Ocean currents respond to climate change in unexpected ways</title>
 		<description>As the planet warms and winds strengthen, the poleward flow of tropical waters is predicted to also intensify. But observations tell a different story.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -163,7 +163,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Classical precursor to turbulence observed in a superfluid</title>
 		<description>An obstacle dragged through a Bose–Einstein condensate can leave a well-known pattern of vortices in its wake.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Wilson</surname>
 				<given-names>R. Mark</given-names>
@@ -189,7 +189,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Neutron starlight gets QED-fueled polarization boost</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -212,7 +212,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Wearable transistor can heal its own wounds</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -236,7 +236,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Antiprotonic helium</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -259,7 +259,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Leidenfrost for solids</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -283,7 +283,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Your most impactful publication can come at any time</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -307,7 +307,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>A neutron star, not a black hole</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -329,7 +329,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Despite financial squeeze, Japan continues drive to globalize its science enterprise</title>
 		<description>A new umbrella organization for research centers seeks to buttress efforts to relax the country’s rigid academic culture.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -352,7 +352,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Erratic helium prices create research havoc</title>
 		<description>Researchers report forgoing salaries and taking on fewer graduate students to cope with volatile prices for liquid helium.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -376,7 +376,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>With Trump in charge, uncharted waters lie ahead for science</title>
 		<description>Now that Congress and the White House are firmly in Republican control, President-elect Trump has a clear path to enact his science policy, when it emerges.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -647,7 +647,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on biotechnologies, biomedical optics, and microscopy</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -776,7 +776,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>Olive spoons and terrapin forks</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -1006,7 +1006,6 @@
 		<page>14_2</page>
 		<pubDate>Thu, 5 Oct 2017 11:08:55 EST</pubDate>
 		<index-cat>politic</index-cat>
-		<index-cat>publish</index-cat>
 		<index-cat>soc-phys</index-cat>
 	</item>
 
@@ -1031,7 +1030,6 @@
 		<page>14_3</page>
 		<pubDate>Thu, 5 Oct 2017 11:08:55 EST</pubDate>
 		<index-cat>politic</index-cat>
-		<index-cat>publish</index-cat>
 		<index-cat>soc-phys</index-cat>
 	</item>
 
@@ -1064,7 +1062,7 @@
 		subdept="Society, politics, and the realm of physics" access="free">
 		<title>Society, politics, and the realm of physics</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -1118,7 +1116,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Antihydrogen gives way to spectroscopic study</title>
 		<description>For the first time, researchers have probed the energy difference between two orbital states of an antimatter atom.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -1142,7 +1140,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Supercooled water survives in no-man’s-land</title>
 		<description>A “stop-motion” crystallization experiment laid bare the liquid’s behavior in a temperature range that was once considered inaccessible.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -1166,7 +1164,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Semiconductor metamaterial fools the Hall effect</title>
 		<description>A structure made entirely out of an n-type semiconductor can mimic some properties of a p-type semiconductor.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -1191,7 +1189,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Superluminous event may lose supernova status</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -1213,7 +1211,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Constraining interpretations of quantum mechanics</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -1237,7 +1235,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>The space weather on the closest Earth-like exoplanet</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -1261,7 +1259,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Pitch sharpening in woodwinds</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -1283,7 +1281,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Fates of two big radio dishes hang in the balance</title>
 		<description>Although still productive, the facilities must find alternative funding to avoid being sacrificed for new cutting-edge telescopes.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -1307,7 +1305,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Citizen observers chart Arctic change</title>
 		<description>Researchers are increasingly partnering with local residents to obtain climate and environmental data. But the endeavor calls for interpersonal savvy.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -1332,7 +1330,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Effort in asteroid defense under way despite funding constraints</title>
 		<description>A US interagency program is refining methods of deflecting asteroids as it works toward finding tens of thousands of undetected near-Earth objects.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -1355,7 +1353,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>High-energy-density science blooms at NIF</title>
 		<description>The weapons facility is exploring phenomena found in brown dwarfs, the cores of “super Earths,” new phases of carbon, and other extreme environments.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -1407,7 +1405,7 @@
 	<item dept="Articles" subdept="" access="">
 		<title>In referees we trust?</title>
 		<description>The imprimatur bestowed by peer review has a history that is both shorter and more complex than many scientists realize.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Baldwin</surname>
 				<given-names>Melinda</given-names>
@@ -1463,7 +1461,8 @@
 		<contrib contrib-type="reviewer">
 			<string-name name-style="western">
 				<surname>Freire</surname>
-				<given-names>Olival Jr</given-names>
+				<given-names>Olival</given-names>
+				<suffix>Jr</suffix>
 			</string-name>
 		</contrib>
 		<contrib contrib-type="bookauthor">
@@ -1642,7 +1641,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on analytical equipment, sensors, and detectors</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -1799,7 +1798,7 @@
 		<page-seq>1</page-seq>
 		<page>80_1</page>
 		<pubDate>Thu, 5 Oct 2017 11:08:55 EST</pubDate>
-		<index-cat>geo</index-cat>
+		<index-cat>earth</index-cat>
 		<index-cat>matsci</index-cat>
 		<index-cat>statphys</index-cat>
 		<index-cat>chem</index-cat>
@@ -1817,7 +1816,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>Discoveries and explanations</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -1979,7 +1978,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Polymer-based transistors bring fully stretchable devices within reach</title>
 		<description>Researchers harnessed nanoconfinement effects to achieve elasticity and efficient charge transport in a semiconducting material.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -2004,7 +2003,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Electron diffraction sees hydrogen atoms</title>
 		<description>The detection of the small, light atoms heralds the emergence of the technique as a powerful crystallographic tool.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -2027,7 +2026,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Circuitry made robust enough for Venus</title>
 		<description>Silicon carbide devices lasted more than three weeks in a laboratory simulation of the corrosive conditions that prevail on the planet’s surface.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Wilson</surname>
 				<given-names>R. Mark</given-names>
@@ -2051,7 +2050,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Testing theories of modified gravity</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -2074,7 +2073,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Watching perovskite photoexcitations, atom by atom</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -2098,7 +2097,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>A fast radio burst’s extragalactic home</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -2120,7 +2119,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Bats’ ears may solve an evolutionary puzzle</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Baldwin</surname>
 				<given-names>Melinda</given-names>
@@ -2143,7 +2142,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>UK science mired in uncertainty about Brexit</title>
 		<description>The most immediate concern is that the country remain attractive and welcoming for foreign researchers and students.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -2168,7 +2167,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Can a trusting relationship between DOE and its labs be restored?</title>
 		<description>Experiments to scale back micromanagement are under way at two national laboratories. Other lab contractors also report measured improvements.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -2192,7 +2191,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Climate-data rescue efforts gear up</title>
 		<description>Data disappearing is far from the only thing researchers are worried about under the Trump administration, but it’s one they can do something about.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -2471,7 +2470,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on test and measurement</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -2600,7 +2599,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>Hearing from you</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -2778,7 +2777,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Passive cooling doesn’t cost the planet</title>
 		<description>Inexpensive ingredients and scalable processes yield a material that can emit more energy than it absorbs, even under direct sunlight.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -2806,7 +2805,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Magnetic trap snares methyl radicals</title>
 		<description>The ability to isolate the important reaction intermediates at subkelvin temperatures could be a boon to cold chemistry.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -2830,7 +2829,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Why the ocean’s carbon sink has gotten stronger</title>
 		<description>The past decade's slowdown of overturning boosted the ocean's ability to take up carbon dioxide, but the enforcement may not last.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Chang</surname>
 				<given-names>Sung</given-names>
@@ -2854,7 +2853,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>The upper atmosphere’s natural thermostat</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Wilson</surname>
 				<given-names>R. Mark</given-names>
@@ -2878,7 +2877,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Helium compound may form under pressure</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -2903,7 +2902,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>A gravitational-lensing measurement of the Hubble constant</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -2925,7 +2924,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Universal lower bound on the dissipation of superconductors</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -2948,7 +2947,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>Undergraduate labs lag in science and technology</title>
 		<description>Grants, prizes, and new experiments aim to bolster the status and stature of lab instruction.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -2972,7 +2971,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>Biology leads the race to turn sunlight into fuels</title>
 		<description>A bacterium can be harnessed to do the job, but can that process be scaled up?</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -2999,7 +2998,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Theory institute opens residence hall for visitors</title>
 		<description>The aim is for informal interactions to stimulate creativity and collaborations.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -3246,7 +3245,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on lasers and imaging</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -3349,7 +3348,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>The state of open access</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -3506,7 +3505,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Proton structure seen in a new light</title>
 		<description>New evidence of two-photon exchange could reconcile discrepant measurements of the proton’s inner construction.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -3530,7 +3529,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Force spectroscopy unveils hidden protein-folding states</title>
 		<description>Specially developed short, bendy cantilevers may be the key to accessing biomolecular dynamics.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -3554,7 +3553,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Radar reveals new hot spots on Enceladus</title>
 		<description>A snippet of data has important implications for figuring out the moon’s structure.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -3576,7 +3575,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Photonic doping tunes transparent media</title>
 		<description>When a material’s index of refraction is zero, strange things happen to an electromagnetic wave passing through it.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Wilson</surname>
 				<given-names>R. Mark</given-names>
@@ -3600,7 +3599,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Newfound rocks may be progeny of primordial crust</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -3623,7 +3622,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Sea turtles don’t just go with the flow</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Berkowitz</surname>
 				<given-names>Rachel</given-names>
@@ -3646,7 +3645,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>A step toward deciphering auroras</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -3670,7 +3669,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Rising heat content of Earth’s oceans</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -3695,7 +3694,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Frog fluorescence</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -3718,7 +3717,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>Steady, strong growth is expected for open-access journals</title>
 		<description>Publishing models continue evolving to accommodate government mandates. Meanwhile, publishers look to cope with article-sharing sites that affect their business.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -3743,7 +3742,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>An electron–proton collider could bridge the gap between the LHC and its successor</title>
 		<description>Whether the CERN facility goes ahead will depend on community support for it in the next European strategy for particle physics.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -3768,7 +3767,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>US academic fusion researchers sound alarm</title>
 		<description>Forming new modes of university leadership using off-campus facilities is essential to sustain the field.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -3818,7 +3817,7 @@
 	<item dept="Articles" subdept="" access="">
 		<title>Imaging cancer with photoacoustic radar</title>
 		<description>An 80-year-old technology best known for locating planes in the sky is inspiring new methods to spot tumors before they become malignant.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -4054,7 +4053,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on materials, semiconductors, vacuum, and cryogenics</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -4205,7 +4204,7 @@
 	<item dept="Back Scatter" subdept="" access="">
 		<title><italic toggle="yes">International Cloud Atlas</italic></title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -4234,7 +4233,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>Where’s my flying car?</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -4516,7 +4515,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Metal–organic framework extracts water from thin air</title>
 		<description>Until now, atmospheric water at low humidity could be condensed only at great energetic expense. A new material overcomes that challenge.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -4540,7 +4539,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Biological tissue can behave like a liquid crystal</title>
 		<description>Topological defects trigger the death and removal of cells.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Wilson</surname>
 				<given-names>R. Mark</given-names>
@@ -4563,7 +4562,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>The many dimensions of Earth’s landscapes</title>
 		<description>An airborne imaging-spectroscopy campaign portends the wealth of information to come from future orbital instruments.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Chang</surname>
 				<given-names>Sung</given-names>
@@ -4588,7 +4587,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>How stars visit the solar neighborhood</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -4610,7 +4609,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Printing glass in 3D</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -4634,7 +4633,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Shedding light (and dark) on quantum probabilities</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -4657,7 +4656,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>The ocellated lizard is a computer game come to life</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -4681,7 +4680,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Cold periods accelerate evolution</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -4704,7 +4703,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Forging a carbon nanobelt</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -4727,7 +4726,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Sediment supply predicts river geometry</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Baldwin</surname>
 				<given-names>Melinda</given-names>
@@ -4751,7 +4750,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>College-level project-based learning gains popularity</title>
 		<description>The approach can develop undergraduates’ skills in teamwork, communications, entrepreneurship, and tackling real-life problems.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -4775,7 +4774,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>Illinois budget impasse damaging state universities</title>
 		<description>Declining enrollments, faculty departures, and fewer low-income tuition grants are among casualties of the long-standing dispute.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -4799,7 +4798,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Breakthrough battery hinged on funding from program in Trump’s crosshairs</title>
 		<description>Novel nickel–zinc cells overcome long-standing limits on recharging, says industry–government development team.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -4824,7 +4823,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Hobby–Eberly Telescope eyes sky with new capabilities</title>
 		<description>Galaxy mapping, exoplanet searches, and more are getting started on the largest optical telescope on the US mainland.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -5032,8 +5031,8 @@
 		<description />
 		<contrib contrib-type="reviewer">
 			<string-name name-style="western">
-				<surname>Lagomarsino</surname>
-				<given-names>Marco Cosentino</given-names>
+				<surname>Cosentino Lagomarsino</surname>
+				<given-names>Marco</given-names>
 			</string-name>
 		</contrib>
 		<contrib contrib-type="bookauthor">
@@ -5074,7 +5073,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on software and instrumentation</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -5322,7 +5321,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>Limits and progress</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -5453,7 +5452,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Ferromagnetism found in two-dimensional materials</title>
 		<description>Whether long-range magnetic order could survive in the 2D limit was an open and fundamental question. The answer is that it can, but it has some surprises in store.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -5477,7 +5476,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Coral isotopes track the rise of anthropogenic nitrogen</title>
 		<description>Coal use in China has jumped sharply over the past 15 years. The concomitant nitrogen oxide emissions have left their subtle mark on a remote island.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -5501,7 +5500,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Proton–proton collisions prove stranger than expected</title>
 		<description>Enhanced production of strange particles joins a growing body of evidence that has physicists reevaluating their assumptions about quark–gluon plasmas.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Chang</surname>
 				<given-names>Sung</given-names>
@@ -5524,7 +5523,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>As nuclear fuel ages, an antineutrino anomaly changes</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -5542,13 +5541,13 @@
 		<pubDate>Mon, 23 Oct 2017 03:54:46 EST</pubDate>
 		<index-cat>nucphys</index-cat>
 		<index-cat>part</index-cat>
-		<index-cat>energy</index-cat>
+		<index-cat>ener</index-cat>
 	</item>
 
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>How friction melts sliding rock</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -5574,7 +5573,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Carving out entanglement</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -5598,7 +5597,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Black carbon in Antarctica</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Berkowitz</surname>
 				<given-names>Rachel</given-names>
@@ -5621,7 +5620,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Shepherding DNA with light and entropy</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Seal</surname>
 				<given-names>Katyayani</given-names>
@@ -5648,7 +5647,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>Pulsar timing arrays are poised to reveal gravitational waves</title>
 		<description>Radio observatories are accumulating data to detect mergers of supermassive black holes.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -5672,7 +5671,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>Cleanup of Cold War nuclear waste drags on</title>
 		<description>Despite billions of dollars spent preparing to treat and stabilize liquid radioactive wastes, cleaning out leaking tanks at the former nuclear production site in Hanford, Washington, will take decades more.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -5698,7 +5697,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>As student labor movements grow, scientists turn activist</title>
 		<description>A 2016 federal ruling gave graduate assistants the right to unionize. Now students on both sides of the issue are mobilizing.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -5722,7 +5721,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Grim news for science and research in Trump budget</title>
 		<description>Across-the-board cuts to civilian R&amp;D programs would help pay for increased defense spending, but they face an uncertain future in Congress.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -5981,7 +5980,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on spectroscopy and photonics</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -6153,7 +6152,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>From lab to clinic</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -6377,7 +6376,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Quantum entanglement reaches new heights</title>
 		<description>The satellite-based distribution of entangled photons to cities 1200 km apart bolsters prospects for a global quantum communication network.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -6401,7 +6400,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Quantum gases cooled to long-range antiferromagnetic order</title>
 		<description>The observation of a checkerboard pattern in a lattice of ultracold atoms is a sign of even more exciting experiments to come.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -6426,7 +6425,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Giant undersea craters were blown out by decomposing methane hydrates</title>
 		<description>Although the craters likely formed about 12 000 years ago, methane is still leaking profusely around and between them.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Wilson</surname>
 				<given-names>R. Mark</given-names>
@@ -6453,7 +6452,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Spider dragline silk’s surprising twist</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Chang</surname>
 				<given-names>Sung</given-names>
@@ -6477,7 +6476,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Collisions of viscous droplets</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -6500,7 +6499,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>A graphene-based digital camera</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -6526,7 +6525,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>A deep neural network of light</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -6550,7 +6549,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Weighing a star with light</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -6573,7 +6572,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Massive machine gears up to weigh nearly massless particles</title>
 		<description>An experiment in Germany looks for missing electron energy to infer neutrino rest mass.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -6597,7 +6596,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>In the digital age, physics students and professors prefer paper textbooks</title>
 		<description>Whether electronic textbooks become more popular may depend on making them more interactive and user-friendly.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Baldwin</surname>
 				<given-names>Melinda</given-names>
@@ -6621,7 +6620,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Atmospheric research in the Rocky Mountain foothills</title>
 		<description>As an NSF-funded center approaches its 60th birthday, scientific and fiscal challenges lie ahead.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -6868,7 +6867,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on test, measurement, and analytical equipment</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -7073,7 +7072,7 @@
 	<item dept="Back Scatter" subdept="" access="">
 		<title>A JunoCam close-up</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -7104,7 +7103,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>Against the rising flood of information</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -7248,7 +7247,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>The carbon nanotube integrated circuit goes three-dimensional</title>
 		<description>Chip makers have a mantra: smaller, cheaper, and faster. They may now need a new adjective—taller.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Wilson</surname>
 				<given-names>R. Mark</given-names>
@@ -7272,7 +7271,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>X rays peer inside a magnet</title>
 		<description>Submicron spin textures in bulk magnetic materials have been stubbornly hard to detect.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -7297,7 +7296,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>A thermodynamic theory of granular material endures</title>
 		<description>Theorists have tested what seemed like an untestable conjecture: that all the possible arrangements of grains in a packing are equally probable.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -7320,7 +7319,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Galactic census reaffirms standard model of cosmology</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -7342,7 +7341,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Resolving smaller molecules with cryo-EM</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -7367,7 +7366,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Continental rift exposes mantle melting at work</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Berkowitz</surname>
 				<given-names>Rachel</given-names>
@@ -7389,7 +7388,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Proton mass measured with unprecedented precision</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -7412,7 +7411,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>What causes the Sun’s plasma jets?</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Baldwin</surname>
 				<given-names>Melinda</given-names>
@@ -7435,7 +7434,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Climate change in the Arctic accelerates</title>
 		<description>Improved models, new icebreakers, and more observations are needed to gauge global effects of the polar region’s diminishing ice cover.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -7464,7 +7463,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Climate change research cut as Canada focuses on mitigation</title>
 		<description>Barring a reversal, government–academia research networks will lapse and facilities in the high Arctic will shut down.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -7486,13 +7485,12 @@
 		<index-cat>int</index-cat>
 		<index-cat>politic</index-cat>
 		<index-cat>soc-phys</index-cat>
-		<index-cat>statphys</index-cat>
 	</item>
 
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Hydrogen-powered vehicles: A chicken and egg problem</title>
 		<description>Although the cost of fuel cells has rapidly decreased, the lack of a fueling infrastructure limits their use in vehicles.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -7743,7 +7741,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on microscopy, imaging, and nanotechnology</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -7947,7 +7945,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>Difficult decisions</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -8186,7 +8184,7 @@
 	<item dept="Readers' Forum" subdept="Peer review as conflict" access="free">
 		<title>Peer review as conflict</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Baldwin</surname>
 				<given-names>Melinda</given-names>
@@ -8210,7 +8208,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Taking the measure of water’s whirl</title>
 		<description>With a 3D printer, a laser, and a few drops of dye, researchers have revealed hidden topologies of fluid vortices.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -8233,7 +8231,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Exceptional points make for exceptional sensors</title>
 		<description>At just the right locations in parameter space, resonant frequencies are ultrasensitive to tiny changes in conditions.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -8258,7 +8256,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>How squid build their graded-index spherical lenses</title>
 		<description>Gelation maintains aberration-preventing protein-density gradients in the cephalopods’ eyes.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Chang</surname>
 				<given-names>Sung</given-names>
@@ -8283,7 +8281,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Specialized vocal organs give some birds their unique songs</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Baldwin</surname>
 				<given-names>Melinda</given-names>
@@ -8306,7 +8304,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Neutrino detection goes small</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -8331,7 +8329,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Phase-sensitive surface spectroscopy, simplified</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -8357,7 +8355,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Throwing icebergs at white dwarfs</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -8379,7 +8377,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Superfast superconducting vortices</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -8403,7 +8401,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>Nevada and Trump administration face off over Yucca Mountain</title>
 		<description>The state perseveres in its three-decade-long fight against hosting a national nuclear waste repository as support for the project from the White House and Congress resurges.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -8428,7 +8426,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>Patent work blends science, business, and law</title>
 		<description>Preparing, evaluating, and defending technology patents is an interesting and rewarding career, practitioners say.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -8452,7 +8450,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>First physicist in Congress dies</title>
 		<description>Vernon Ehlers, former House member from Michigan, was a strong advocate for improved science education.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -8696,7 +8694,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on materials, semiconductors, vacuum, and cryogenics</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -8892,7 +8890,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>Is it time to change the undergraduate curriculum?</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -9043,7 +9041,7 @@
 
 	<item dept="Readers' Forum" subdept="A reminder of the powers of π"
 		access="free">
-		<title>A reminder of the powers of π</title>
+		<title>A reminder of the powers of <italic>π</italic></title>
 		<description />
 		<contrib contrib-type="author">
 			<string-name name-style="western">
@@ -9164,7 +9162,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Ancient clues help quantify modern methane</title>
 		<description>Natural geological emissions contributed little to the methane levels of the ancient atmosphere. The same could be true today.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -9190,7 +9188,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Acoustic levitation widens the study of droplet jetting</title>
 		<description>To investigate the fission of charged droplets, a pair of chemists holds one stationary in electrified midair.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Wilson</surname>
 				<given-names>R. Mark</given-names>
@@ -9215,7 +9213,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Ships cause their own stormy seas</title>
 		<description>Increased lightning frequency over maritime trade routes links pollution to the development of thunderclouds.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Chang</surname>
 				<given-names>Sung</given-names>
@@ -9239,7 +9237,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Conduction electrons flow like honey</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -9263,7 +9261,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Now you see this nanoplasmonic mirror. Now you don’t.</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Smart</surname>
 				<given-names>Ashley G.</given-names>
@@ -9288,9 +9286,9 @@
 
 
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
-		<title>Evaluating the Habitability of exomoons</title>
+		<title>Evaluating the habitability of exomoons</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -9314,7 +9312,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Healing defects in perovskite films</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Wilson</surname>
 				<given-names>R. Mark</given-names>
@@ -9341,7 +9339,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Salaries for female physics faculty trail those for male colleagues</title>
 		<description>Gender pay gap is tangled with many aspects of physics culture.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -9366,7 +9364,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>Refracturing may not be all it’s cracked up to be</title>
 		<description>Restimulating oil and gas wells that have been fracked will be worthwhile in some cases, but not all.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -9623,7 +9621,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on lasers, imaging, and photonics</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -10011,12 +10009,12 @@
 		</category>
 		<category>
 			<title>Society and physics</title>
-			<see_also><italic>See also</italic> Education; Employment and careers; Energy; Environment; Military physics and arms control; Publishing, media, and the press; Politics and policy; Sociology of science</see_also>
+			<see_also><italic>See also</italic> Education; Employment and careers; Energy; Environment; Military physics and arms control; Politics and policy; Publishing, media, and the press; Sociology of science</see_also>
 			<code>soc-phys</code>
 		</category>
 		<category>
 			<title>Sociology of science</title>
-			<see_also><italic>See also</italic> Education; Employment and careers; History and philosophy; Publishing, media, and the press; Politics and policy; Society and physics</see_also>
+			<see_also><italic>See also</italic> Education; Employment and careers; History and philosophy; Politics and policy; Publishing, media, and the press; Society and physics</see_also>
 			<code>sociol</code>
 		</category>
 		<category>
