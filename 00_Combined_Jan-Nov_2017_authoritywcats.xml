@@ -1062,7 +1062,7 @@
 		subdept="Society, politics, and the realm of physics" access="free">
 		<title>Society, politics, and the realm of physics</title>
 		<description />
-		<contrib contrib-type="author" ptstaff="yes">
+		<contrib contrib-type="author" ptstaff="no">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -1405,7 +1405,7 @@
 	<item dept="Articles" subdept="" access="">
 		<title>In referees we trust?</title>
 		<description>The imprimatur bestowed by peer review has a history that is both shorter and more complex than many scientists realize.</description>
-		<contrib contrib-type="author" ptstaff="yes">
+		<contrib contrib-type="author" ptstaff="no">
 			<string-name name-style="western">
 				<surname>Baldwin</surname>
 				<given-names>Melinda</given-names>
@@ -1524,7 +1524,7 @@
 				<given-names>Pierre</given-names>
 			</string-name>
 		</contrib>
-		<contrib contrib-type="bookauthor">
+		<contrib contrib-type="bookauthor" role="bookeditor">
 			<string-name name-style="western">
 				<given-names>Markus</given-names>
 				<surname>Aspelmeyer</surname>
@@ -3817,7 +3817,7 @@
 	<item dept="Articles" subdept="" access="">
 		<title>Imaging cancer with photoacoustic radar</title>
 		<description>An 80-year-old technology best known for locating planes in the sky is inspiring new methods to spot tumors before they become malignant.</description>
-		<contrib contrib-type="author" ptstaff="yes">
+		<contrib contrib-type="author" ptstaff="no">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -5851,6 +5851,18 @@
 		<contrib contrib-type="bookauthor">
 			<string-name name-style="western">
 				<given-names>Elisabeth</given-names>
+				<surname>Heisenberg</surname>
+			</string-name>
+		</contrib>
+		<contrib contrib-type="bookauthor" role="bookeditor">
+			<string-name name-style="western">
+				<given-names>Anna Maria</given-names>
+				<surname>Hirsch-Heisenberg</surname>
+			</string-name>
+		</contrib>
+		<contrib contrib-type="bookauthor" role="booktranslator">
+			<string-name name-style="western">
+				<given-names>Irene</given-names>
 				<surname>Heisenberg</surname>
 			</string-name>
 		</contrib>
@@ -8184,7 +8196,7 @@
 	<item dept="Readers' Forum" subdept="Peer review as conflict" access="free">
 		<title>Peer review as conflict</title>
 		<description />
-		<contrib contrib-type="author" ptstaff="yes">
+		<contrib contrib-type="author" ptstaff="no">
 			<string-name name-style="western">
 				<surname>Baldwin</surname>
 				<given-names>Melinda</given-names>
@@ -9123,7 +9135,7 @@
 		<contrib contrib-type="author">
 			<string-name name-style="western">
 				<surname>Fleming</surname>
-				<given-names>Jim</given-names>
+				<given-names>James R.</given-names>
 			</string-name>
 		</contrib>
 		<article-id pub-id-type="doi">10.1063/PT.3.3751</article-id>
