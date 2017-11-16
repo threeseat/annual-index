@@ -1530,13 +1530,13 @@
 				<surname>Aspelmeyer</surname>
 			</string-name>
 		</contrib>
-		<contrib contrib-type="bookauthor">
+		<contrib contrib-type="bookauthor" role="bookeditor">
 			<string-name name-style="western">
 				<given-names>Tobias J.</given-names>
 				<surname>Kippenberg</surname>
 			</string-name>
 		</contrib>
-		<contrib contrib-type="bookauthor">
+		<contrib contrib-type="bookauthor" role="bookeditor">
 			<string-name name-style="western">
 				<given-names>Florian</given-names>
 				<surname>Marquardt</surname>
@@ -9598,6 +9598,18 @@
 	<item dept="Books" subdept="" access="free">
 		<title>Astrophysics for People in a Hurry</title>
 		<description />
+		<contrib contrib-type="reviewer">
+			<string-name name-style="western">
+				<surname>Lagos</surname>
+				<given-names>Macarena</given-names>
+			</string-name>
+		</contrib>
+		<contrib contrib-type="bookauthor">
+			<string-name name-style="western">
+				<given-names>Neil deGrasse</given-names>
+				<surname>Tyson</surname>
+			</string-name>
+		</contrib>
 		<article-id pub-id-type="doi">10.1063/PT.3.3768</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3768</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3768</guid>
@@ -10290,6 +10302,124 @@
 			<code>women</code>
 		</category>
 	</categories>
+
+
+	<!--	Book Review Category Headings
+-->
+	<book_categories>
+		<book_category>
+			<title>Acoustics</title>
+			<code>ac</code>
+		</book_category>
+		<book_category>
+			<title>Astronomy and astrophysics</title>
+			<code>ap</code>
+		</book_category>
+		<book_category>
+			<title>Atomic and molecular physics</title>
+			<code>at</code>
+		</book_category>
+		<book_category>
+			<title>Biological and medical physics</title>
+			<code>bp</code>
+		</book_category>
+		<book_category>
+			<title>Chemical physics</title>
+			<code>ck</code>
+		</book_category>
+		<book_category>
+			<title>Computers and computational physics</title>
+			<code>cl</code>
+		</book_category>
+		<book_category>
+			<title>Condensed-matter physics</title>
+			<code>cm</code>
+		</book_category>
+		<book_category>
+			<title>Cosmology and relativity</title>
+			<code>cr</code>
+		</book_category>
+		<book_category>
+			<title>Device physics</title>
+			<code>df</code>
+		</book_category>
+		<book_category>
+			<title>Energy and environment</title>
+			<code>ex</code>
+		</book_category>
+		<book_category>
+			<title>Fluids</title>
+			<code>fx</code>
+		</book_category>
+		<book_category>
+			<title>Geophysics</title>
+			<code>gp</code>
+		</book_category>
+		<book_category>
+			<title>History and philosophy</title>
+			<code>hp</code>
+		</book_category>
+		<book_category>
+			<title>Instrumentation and techniques</title>
+			<code>it</code>
+		</book_category>
+		<book_category>
+			<title>Materials science</title>
+			<code>ms</code>
+		</book_category>
+		<book_category>
+			<title>Miscellaneous</title>
+			<code>xx</code>
+		</book_category>
+		<book_category>
+			<title>Nonlinear science and chaos</title>
+			<code>nl</code>
+		</book_category>
+		<book_category>
+			<title>Nuclear physics</title>
+			<code>np</code>
+		</book_category>
+		<book_category>
+			<title>Optics and photonics</title>
+			<code>op</code>
+		</book_category>
+		<book_category>
+			<title>Particle physics</title>
+			<code>pa</code>
+		</book_category>
+		<book_category>
+			<title>Plasmas and fusion</title>
+			<code>pf</code>
+		</book_category>
+		<book_category>
+			<title>Popularizations</title>
+			<code>po</code>
+		</book_category>
+		<book_category>
+			<title>Quantum physics</title>
+			<code>qp</code>
+		</book_category>
+		<book_category>
+			<title>Society and government</title>
+			<code>sg</code>
+		</book_category>
+		<book_category>
+			<title>Space and planetary science</title>
+			<code>sp</code>
+		</book_category>
+		<book_category>
+			<title>Statistical physics and thermodynamics</title>
+			<code>st</code>
+		</book_category>
+		<book_category>
+			<title>Texts and education</title>
+			<code>tx</code>
+		</book_category>
+		<book_category>
+			<title>Theory and mathematical methods</title>
+			<code>tm</code>
+		</book_category>
+	</book_categories>
 
 
 </authority>
