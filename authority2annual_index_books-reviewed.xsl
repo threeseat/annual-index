@@ -184,7 +184,7 @@ color: green;
 	
 	<xsl:template name="month-page">
 			<xsl:choose>
-				<xsl:when test="parent::iss = '1'">
+				<xsl:when test="iss = '1'">
 					<xsl:text>JAN</xsl:text>
 				</xsl:when>
 				<xsl:when test="iss = '2'">
