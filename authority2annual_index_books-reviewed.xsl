@@ -125,9 +125,7 @@ color: green;
 					<xsl:text>, </xsl:text>
 				</xsl:when>
 			</xsl:choose>
-			<xsl:value-of
-				select="string-name/given-names, string-name/surname, string-name/suffix"
-				separator=" " />
+			<xsl:value-of select="string-name/given-names/replace(.,'(\w)\w+','$1.'), string-name/surname, string-name/suffix" separator=" "/>
 			<xsl:choose>
 				<xsl:when test="position() = last() and following-sibling::contrib">
 					<xsl:text>; </xsl:text>
@@ -142,7 +140,7 @@ color: green;
 	<xsl:template name="bookeditors">
 		<xsl:for-each
 			select="contrib[@contrib-type = 'bookauthor' and @role = 'bookeditor']">
-			<xsl:value-of select="string-name/given-names, string-name/surname, string-name/suffix" separator=" "/>
+			<xsl:value-of select="string-name/given-names/replace(.,'(\w)\w+','$1.'), string-name/surname, string-name/suffix" separator=" "/>
 			<xsl:text>, </xsl:text>
 			<xsl:if test="position() = last()">
 				<xsl:choose>
@@ -164,7 +162,7 @@ color: green;
 	<xsl:template name="booktranslators">
 		<xsl:for-each
 			select="contrib[@contrib-type = 'bookauthor' and @role = 'booktranslator']">
-			<xsl:value-of select="current() /string-name/given-names, string-name/surname, string-name/suffix" separator=" "/>
+			<xsl:value-of select="string-name/given-names/replace(.,'(\w)\w+','$1.'), string-name/surname, string-name/suffix" separator=" "/>
 			<xsl:text>, </xsl:text>
 			<xsl:if test="position() = last()">
 				<xsl:text>trans.</xsl:text>
@@ -179,7 +177,7 @@ color: green;
 	<xsl:template name="bookreviewer">
 		<xsl:for-each select="contrib[@contrib-type = 'reviewer']">
 			<xsl:text>(</xsl:text>
-			<xsl:value-of select="string-name/given-names, string-name/surname, string-name/suffix" separator=" "/>
+			<xsl:value-of select="string-name/given-names/replace(.,'(\w)\w+','$1.'), string-name/surname, string-name/suffix" separator=" "/>
 			<xsl:text>) </xsl:text>
 		</xsl:for-each>
 	</xsl:template>
