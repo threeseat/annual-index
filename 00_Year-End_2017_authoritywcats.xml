@@ -674,6 +674,10 @@
 				<given-names>John</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Jin</surname>
+			<given-names>Deborah</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3435</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3435</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3435</guid>
@@ -709,6 +713,10 @@
 				<given-names>Frank</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Madey</surname>
+			<given-names>John Michael Julius</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3436</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3436</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3436</guid>
@@ -1677,6 +1685,10 @@
 				<given-names>Richard</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Cicerone</surname>
+			<given-names>Ralph J.</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3471</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3471</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3471</guid>
@@ -1706,6 +1718,10 @@
 				<given-names>Leonard</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Finkelstein</surname>
+			<given-names>David Ritz</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3472</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3472</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3472</guid>
@@ -1735,6 +1751,10 @@
 				<given-names>Jose</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Lofgren</surname>
+			<given-names>Edward Joseph</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3473</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3473</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3473</guid>
@@ -2509,6 +2529,10 @@
 				<given-names>Melvyn J.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Cronin</surname>
+			<given-names>James Watson</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3502</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3502</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3502</guid>
@@ -2532,6 +2556,10 @@
 				<given-names>Neta A.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Rubin</surname>
+			<given-names>Vera Cooper</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3503</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3503</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3503</guid>
@@ -3282,6 +3310,10 @@
 				<given-names>Bo</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Pankove</surname>
+			<given-names>Jacques Isaac</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3532</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3532</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3532</guid>
@@ -4096,6 +4128,10 @@
 				<given-names>Lanny D.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Gomer</surname>
+			<given-names>Robert</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3563</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3563</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3563</guid>
@@ -4137,6 +4173,10 @@
 				<given-names>Lev</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Gor’kov</surname>
+			<given-names>Lev Petrovich</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3564</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3564</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3564</guid>
@@ -4164,6 +4204,10 @@
 					>喬玲麗</string-name>
 			</name-alternatives>
 		</contrib>
+		<deceased-name>
+			<surname>Mandelstam</surname>
+			<given-names>Stanley</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3565</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3565</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3565</guid>
@@ -5108,6 +5152,10 @@
 				<given-names>Vladimir</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Belyaev</surname>
+			<given-names>Spartak Timofeevich</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3602</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3602</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3602</guid>
@@ -5167,6 +5215,10 @@
 				<given-names>David</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Dresselhaus</surname>
+			<given-names>Mildred S.</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3603</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3603</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3603</guid>
@@ -5196,6 +5248,10 @@
 				<given-names>Charles H.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>French</surname>
+			<given-names>Anthony Philip</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3604</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3604</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3604</guid>
@@ -5243,6 +5299,10 @@
 				<given-names>Michael V.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Keldysh</surname>
+			<given-names>Leonid</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3605</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3605</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3605</guid>
@@ -6021,6 +6081,10 @@
 				<given-names>Doug D.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Franklin</surname>
+			<given-names>Ursula Martius</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3634</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3634</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3634</guid>
@@ -6068,6 +6132,10 @@
 				<given-names>Charles W.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Vishveshwara</surname>
+			<given-names>C. V.</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3635</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3635</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3635</guid>
@@ -6091,6 +6159,10 @@
 				<given-names>Norisuke</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Yamaguchi</surname>
+			<given-names>Yoshio</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3636</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3636</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3636</guid>
@@ -6926,6 +6998,10 @@
 				<given-names>William</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Cohen</surname>
+			<given-names>Roger Wolfe</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3668</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3668</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3668</guid>
@@ -6955,6 +7031,10 @@
 				<given-names>Anneila I.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Lo</surname>
+			<given-names>Kwok-Yung</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3669</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3669</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3669</guid>
@@ -7002,6 +7082,10 @@
 				<given-names>Michael</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Steigman</surname>
+			<given-names>Gary</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3670</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3670</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3670</guid>
@@ -7043,6 +7127,10 @@
 				<given-names>Anil K.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Zweifel</surname>
+			<given-names>Paul Frederick</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3671</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3671</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3671</guid>
@@ -7794,6 +7882,10 @@
 				<given-names>William J.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Drell</surname>
+			<given-names>Sidney David</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3700</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3700</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3700</guid>
@@ -7823,6 +7915,10 @@
 				<given-names>Ralph O.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Goldwasser</surname>
+			<given-names>Edwin Leo</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3701</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3701</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3701</guid>
@@ -7846,6 +7942,10 @@
 				<given-names>Chi</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Huang</surname>
+			<given-names>Kerson</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3702</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3702</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3702</guid>
@@ -7881,6 +7981,10 @@
 				<given-names>Jonathan</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Rosenfeld</surname>
+			<given-names>Arthur Hinton</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3703</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3703</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3703</guid>
@@ -8741,6 +8845,10 @@
 				<given-names>Andrey A.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Abrikosov</surname>
+			<given-names>Alexei Alexeyevich</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3736</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3736</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3736</guid>
@@ -8771,6 +8879,10 @@
 				<given-names>Eric J. W.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Beranek</surname>
+			<given-names>Leo Leroy</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3737</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3737</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3737</guid>
@@ -8800,6 +8912,10 @@
 				<given-names>Francis</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Gehrels</surname>
+			<given-names>Cornelis A.</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3738</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3738</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3738</guid>
@@ -8829,6 +8945,10 @@
 				<given-names>Mordecai D.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Szöke</surname>
+			<given-names>Abraham</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3739</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3739</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3739</guid>
@@ -9705,6 +9825,10 @@
 				<given-names>Karl-Heinz</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Rieder</surname>
+			<given-names>Karl-Heinz</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3771</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3771</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3771</guid>
@@ -9747,6 +9871,10 @@
 				<given-names>Donald M.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Schultz</surname>
+			<given-names>Sheldon</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3772</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3772</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3772</guid>
@@ -10359,6 +10487,10 @@
 				<given-names>Robert E.</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Drever</surname>
+			<given-names>Ronald William Prest</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3796</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3796</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3796</guid>
@@ -10382,6 +10514,10 @@
 				<given-names>Penny</given-names>
 			</string-name>
 		</contrib>
+		<deceased-name>
+			<surname>Mansfield</surname>
+			<given-names>Peter</given-names>
+		</deceased-name>
 		<article-id pub-id-type="doi">10.1063/PT.3.3797</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3797</link>
 		<guid isPermaLink="true">https://doi.org/10.1063/PT.3.3797</guid>
