@@ -90,8 +90,20 @@ color: green;
 				group-by="title">
 				<xsl:sort select="title" />
 				<li>
-					<xsl:value-of select="title" />
-					<xsl:text>, </xsl:text>
+					<xsl:choose>
+						<xsl:when test="title[ends-with(., '?')]">
+							<xsl:value-of select="title"/>
+							<xsl:text> </xsl:text>
+						</xsl:when>
+						<xsl:when test="title[ends-with(., '!')]">
+							<xsl:value-of select="title"/>
+							<xsl:text> </xsl:text>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="title"/>
+							<xsl:text>, </xsl:text>
+						</xsl:otherwise>
+					</xsl:choose>
 					<xsl:value-of select="contrib/string-name/given-names, contrib/string-name/surname, contrib/string-name/suffix" separator=" "/>
 				</li>
 			</xsl:for-each-group>
@@ -482,7 +494,7 @@ color: green;
 		</category>
 		<category>
 			<title>Low-temperature physics</title>
-			<see_also><italic>See</italic> Instrumentation and techniques<italic>;</italic> Quantum physics</see_also>
+			<see_also><italic>See</italic> Instrumentation and techniques; Quantum physics</see_also>
 			<code>low</code>
 		</category>
 		<category>
