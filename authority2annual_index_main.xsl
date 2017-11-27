@@ -73,11 +73,18 @@ color: green;
 			<h3>
 				<xsl:value-of select="." />
 			</h3>
-			<xsl:choose>
+			<p>
+				<em>
+				<xsl:value-of select="../see_also/italic" />
+			</em>
+			<xsl:text> </xsl:text>
+			<xsl:value-of select="../see_also/text()[1]" />
+			</p>
+			<!--<xsl:choose>
 				<xsl:when test="../see_also/*">
 					<p><xsl:value-of select="../see_also" /></p>
 				</xsl:when>
-			</xsl:choose>
+			</xsl:choose>-->
 			<xsl:for-each-group
 				select="/authority/item[child::index-cat = current()/../code]"
 				group-by="title">
