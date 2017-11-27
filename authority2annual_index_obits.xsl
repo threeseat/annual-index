@@ -67,11 +67,17 @@ color: green;
 				<h3>
 					Obituaries
 				</h3>
-				<p><xsl:value-of select="/authority/categories/category[child::title = 'Obituaries']/see_also" /></p>
+				<p><em><xsl:value-of select="/authority/categories/category[child::title = 'Obituaries']/see_also/italic" /></em> <xsl:value-of select="/authority/categories/category[child::title = 'Obituaries']/see_also/text()[1]" /></p>
 				<xsl:call-template name="obits"/>
 			</body>
 		</html>
 	</xsl:template>
+	
+	
+	
+	
+	
+	
 	
 	<xsl:template name="obits">
 		<xsl:for-each-group
@@ -80,7 +86,24 @@ color: green;
 			<xsl:sort select="index-lastname"/>
 		
 			<li>
-				<xsl:value-of select="title" />
+				<xsl:choose>
+					<xsl:when test="@dept = 'Obituaries'">
+						<xsl:value-of select="deceased-name/given-names/replace(.,'(\w)\w+','$1.'), deceased-name/surname, deceased-name/suffix" separator=" "/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="title"/>
+						<xsl:text>, </xsl:text>
+						<xsl:for-each select="contrib[@contrib-type = 'author']">
+							<xsl:value-of select="string-name/given-names/replace(.,'(\w)\w+','$1.'), string-name/surname, string-name/suffix" separator=" "/>
+							<xsl:choose>
+								<xsl:when test="position() != last()">
+									<xsl:text>, </xsl:text>
+								</xsl:when>
+							</xsl:choose>
+						</xsl:for-each>
+					</xsl:otherwise>
+				</xsl:choose>
+				<xsl:text> </xsl:text>
 				<xsl:choose>
 					<xsl:when test="@dept = 'From the Editor'">
 						<xsl:text>(ED)</xsl:text>
