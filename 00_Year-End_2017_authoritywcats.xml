@@ -60,7 +60,8 @@
 		access="free">
 		<title>X-ray sterilization with accelerators is viable in US</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="aut
+			hor">
 			<string-name name-style="western">
 				<surname>Boulware</surname>
 				<given-names>Chase</given-names>
@@ -9943,7 +9944,7 @@
 	<item dept="From the Editor" subdept="" access="free">
 		<title>What do they think we know?</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Day</surname>
 				<given-names>Charles</given-names>
@@ -10096,6 +10097,12 @@
 	
 	<item dept="Readers' Forum" subdept="Correction" access="free">
 		<title>Correction</title>
+		<contrib contrib-type="author">
+			<string-name name-style="western">
+				<surname>Ialenti</surname>
+				<given-names>Vincent</given-names>
+			</string-name>
+		</contrib>
 		<description />
 		<article-id pub-id-type="doi">10.1063/PT.3.3781</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3781</link>
@@ -10113,7 +10120,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Weiss, Barish, and Thorne share 2017 Nobel Prize in Physics</title>
 		<description>Three architects of LIGO are honored for their successful effort to directly detect gravitational waves.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -10137,7 +10144,7 @@
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Two kinds of waves from a neutron-star smashup</title>
 		<description>Gravitational and electromagnetic radiation expose a merger that triggered a gamma-ray burst and manufactured heavy elements.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Grant</surname>
 				<given-names>Andrew</given-names>
@@ -10160,7 +10167,7 @@
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Cryoelectron microscopy pioneers win chemistry Nobel</title>
 		<description>Proteins frozen in vitreous ice are now being imaged with atomic resolution.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Miller</surname>
 				<given-names>Johanna L.</given-names>
@@ -10184,7 +10191,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Cruising the seas on the wreckage of a natural disaster</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Blau</surname>
 				<given-names>Steven K.</given-names>
@@ -10208,7 +10215,7 @@
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Fluid dynamics explains ancient organism behavior</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Berkowitz</surname>
 				<given-names>Rachel</given-names>
@@ -10232,7 +10239,7 @@
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>NASA sees a future with nuclear power</title>
 		<description>The space agency views reactors as options both for propulsion to Mars and as a power source for life on the red planet.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Kramer</surname>
 				<given-names>David</given-names>
@@ -10257,7 +10264,7 @@
 	<item dept="Issues and Events" subdept="" access="">
 		<title>A spray-on material can retrofit walls to save lives in earthquakes</title>
 		<description>The cement-based layer can be applied to nonstructural masonry walls to make them bend rather than break.</description>
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Feder</surname>
 				<given-names>Toni</given-names>
@@ -10453,7 +10460,7 @@
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on software and data acquisition</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Mandelis</surname>
 				<given-names>Andreas</given-names>
@@ -10559,7 +10566,7 @@
 	<item dept="Back Scatter" subdept="" access="">
 		<title>Liquid diodes</title>
 		<description />
-		<contrib contrib-type="author">
+		<contrib contrib-type="author" ptstaff="yes">
 			<string-name name-style="western">
 				<surname>Fitzgerald</surname>
 				<given-names>Richard J.</given-names>
@@ -10959,7 +10966,7 @@
 		</category>
 		<category>
 			<title>Low-temperature physics</title>
-			<see_also><italic>See</italic> Instrumentation and techniques<italic>;</italic> Quantum physics</see_also>
+			<see_also><italic>See</italic> Instrumentation and techniques; Quantum physics</see_also>
 			<code>low</code>
 		</category>
 		<category>
