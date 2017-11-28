@@ -14,11 +14,11 @@
 		</xd:desc>
 	</xd:doc>
 	
-	<xsl:key name="ptauthors" match="contrib[not(@contrib-type = 'bookauthor')][not(@ptstaff)]" use="string-name"/>
+	<xsl:key name="ptauthors" match="contrib[not(@contrib-type = 'bookauthor')][not(@ptstaff = 'yes')]" use="string-name"/>
 	<!--TRANSFORM BEGINS-->
-
-
-
+	
+	
+	
 	<xsl:template match="/">
 		<html>
 			<head>
@@ -61,7 +61,7 @@ color: green;
 				<ul>
 					<!-- Insert Author Name Sorted Alphabetically by Surname then Given-names -->
 					<xsl:for-each select="//authority/item/contrib[generate-id(.)=
-							generate-id(key('ptauthors', string-name)[1])]">
+						generate-id(key('ptauthors', string-name)[1])]">
 						<xsl:sort select="string-name"/>
 						<li>
 							<xsl:for-each select="key('ptauthors', string-name)">
@@ -69,9 +69,8 @@ color: green;
 								<xsl:sort select="given-names"/>
 								<xsl:if test="position() = 1">
 									<xsl:value-of select="(key('ptauthors', string-name[child::given-name])[1])" />
-									<b>
-										<xsl:value-of select="string-name/given-names, string-name/surname, string-name/suffix" separator=" "/>
-									</b>
+									<xsl:value-of select="string-name/given-names/replace(.,'(\w)\w+','$1.'), string-name/surname, string-name/suffix" separator=" "/>
+									
 								</xsl:if>
 								<!-- Insert Department, Issue, and Page Info -->
 								<xsl:if test="./parent::item[@dept = 'Articles']">
@@ -81,23 +80,23 @@ color: green;
 								<xsl:text> </xsl:text>
 								<xsl:choose>
 									<xsl:when
-											test="./parent::item[@dept = 'From the Editor']">
+										test="./parent::item[@dept = 'From the Editor']">
 										<xsl:text>(ED)</xsl:text>
 									</xsl:when>
 									<xsl:when
-											test="./parent::item[contains(@dept, 'Readers')]">
+										test="./parent::item[contains(@dept, 'Readers')]">
 										<xsl:text>(FOR)</xsl:text>
 									</xsl:when>
 									<xsl:when
-											test="./parent::item[@dept = 'Search and Discovery' and @subdept = 'Physics Update']">
+										test="./parent::item[@dept = 'Search and Discovery' and @subdept = 'Physics Update']">
 										<xsl:text>(UP)</xsl:text>
 									</xsl:when>
 									<xsl:when
-											test="./parent::item[@dept = 'Search and Discovery']">
+										test="./parent::item[@dept = 'Search and Discovery']">
 										<xsl:text>(SD)</xsl:text>
 									</xsl:when>
 									<xsl:when
-											test="./parent::item[@dept = 'Issues and Events']">
+										test="./parent::item[@dept = 'Issues and Events']">
 										<xsl:text>(IE)</xsl:text>
 									</xsl:when>
 									<xsl:when test="./parent::item[@dept = 'Articles']">
@@ -162,14 +161,15 @@ color: green;
 									</xsl:when>
 								</xsl:choose>
 								<xsl:text> </xsl:text>
-								<xsl:for-each select="current()/..//fpage">
-								<xsl:choose>
-									<xsl:when test="position()!=1" xml:space="preserve">
-										<xsl:text>; </xsl:text><xsl:value-of select="..//fpage"/></xsl:when>
-									<xsl:when test="position()=1" xml:space="preserve"><xsl:value-of select="..//fpage"/>
-									</xsl:when>
-								</xsl:choose>
+								<xsl:for-each select="..//fpage">
+									<xsl:value-of select="..//fpage" separator=";"/>
 								</xsl:for-each>
+								<!--<xsl:choose>
+									<xsl:when test="..//fpage/following-sibling::*">
+										<xsl:value-of select="..//fpage" separator=";"/>
+									</xsl:when>
+								</xsl:choose>-->
+								<!--<xsl:value-of select="..//fpage" separator=";"/>-->
 							</xsl:for-each>
 						</li>
 					</xsl:for-each>
@@ -183,5 +183,5 @@ color: green;
 		<xsl:value-of select="authority/item[1]/volume + 1947" />
 	</xsl:template>
 	
-
+	
 </xsl:stylesheet>
