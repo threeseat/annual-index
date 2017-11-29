@@ -92,45 +92,48 @@
 						<xsl:sort select="iss" data-type="number"/>
 						<xsl:sort select="fpage" data-type="number"/>
 						<xsl:sort select="page-seq" data-type="number"/>
-						<!-- 
-							Take advantage of the fact that within xsl:for-each-group, 
-							the context item is the first item of the current group.
-							So the common group elements can be pulled from the current item's components
-						-->
 						<li>
-							<!-- title formatting is different for feature articles -->
-							<a href="{guid}">
-								<xsl:choose>
-									<xsl:when test="@dept = 'Articles'">
-										<xsl:apply-templates select="title" mode="article"/>
-									</xsl:when>
-									<xsl:otherwise>
-										<xsl:apply-templates select="title" mode="nonarticle"/>
-									</xsl:otherwise>
-								</xsl:choose>
-							</a>
-							<xsl:if test="current-group()//contrib[matches(@contrib-type, '^author|reviewer') and not(@ptstaff = 'yes')]">
-								<!-- Avoid '?,' and '!' at end of titles -->
-								<xsl:choose>
-									<xsl:when test="ends-with(title, '?') or ends-with(title, '!')"/>
-									<xsl:otherwise>
-										<xsl:text>,</xsl:text>
-									</xsl:otherwise>
-								</xsl:choose>
-								<xsl:text> </xsl:text>
-								<!-- process the authors of each item in current group, with semicolons separating items  -->
-								<xsl:for-each select="current-group()">
-									<a href="{guid}">
-										<xsl:apply-templates select="contrib[matches(@contrib-type, '^author|reviewer') and not(@ptstaff='yes')]"/>
-									</a>
-									<xsl:if test="position() lt last()">
-										<xsl:text>; </xsl:text>
+							<!-- To get continuous linking across title and authors (first letter's, in packet), process shared info inside for-each loop -->
+							<xsl:for-each select="current-group()">
+								<a href="{guid}">
+									<xsl:if test="position() = 1">
+										<!-- title formatting is different for feature articles -->
+										<xsl:choose>
+											<xsl:when test="@dept = 'Articles'">
+												<xsl:apply-templates select="title" mode="article"/>
+											</xsl:when>
+											<xsl:otherwise>
+												<xsl:apply-templates select="title" mode="nonarticle"/>
+											</xsl:otherwise>
+										</xsl:choose>
+										<!-- Avoid '?,' and '!' at end of titles, but only if displayed authors -->
+										<xsl:if test="contrib[matches(@contrib-type, '^author|reviewer') and not(@ptstaff = 'yes')]">
+											<xsl:choose>
+												<xsl:when test="ends-with(title, '?') or ends-with(title, '!')">
+													<xsl:text> </xsl:text>
+												</xsl:when>
+												<xsl:otherwise>
+													<xsl:text>, </xsl:text>
+												</xsl:otherwise>
+											</xsl:choose>
+										</xsl:if>
 									</xsl:if>
-								</xsl:for-each>
-							</xsl:if>
+									<!-- process the authors of each item in current group, with semicolons separating items  -->
+									<xsl:apply-templates select="contrib[matches(@contrib-type, '^author|reviewer') and not(@ptstaff='yes')]"/>
+								</a>
+								<xsl:if test="position() lt last()">
+									<xsl:text>; </xsl:text>
+								</xsl:if>
+							</xsl:for-each>
+							<!-- 
+								Take advantage of the fact that within xsl:for-each-group, 
+								the context item is the first item of the current group.
+								So the common group elements can be pulled from the current item's components
+							-->
 							<xsl:text> </xsl:text>
 							<xsl:apply-templates select="@dept"/>
 							<xsl:text> </xsl:text>
+							<!-- link month+page to first item in group (admittedly not ideal for letters packets) -->
 							<a href="{guid}">
 								<xsl:apply-templates select="iss"/>
 								<xsl:text>&#x00A0;</xsl:text>
