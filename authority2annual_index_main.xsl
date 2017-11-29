@@ -2,8 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-	xmlns:i="http://categories.data"
-	exclude-result-prefixes="xs xd" version="2.0">
+	exclude-result-prefixes="#all" version="2.0">
 	<xsl:output method="html" omit-xml-declaration="no" encoding="UTF-8"
 		indent="yes" exclude-result-prefixes="#all" />
 	<xd:doc scope="stylesheet">
@@ -58,14 +57,11 @@
 	</xsl:variable>
 
 	<!--TRANSFORM BEGINS-->
-	<xsl:template match="/">
-		<xsl:copy>
-			<xsl:apply-templates />
-		</xsl:copy>
-	</xsl:template>
 
-
-	<xsl:template match="/authority">
+	<xd:doc>
+		<xd:desc>authority: root element, generates overall output structure</xd:desc>
+	</xd:doc>
+	<xsl:template match="authority">
 		<html>
 			<head>
 				<xsl:copy-of select="$css"/>
@@ -78,6 +74,9 @@
 		</html>
 	</xsl:template>
 
+	<xd:doc>
+		<xd:desc>main (named): main loop through alphabetized categories, processing date-sorted items</xd:desc>
+	</xd:doc>
 	<xsl:template name="main">
 		<xsl:for-each select="/authority/categories/category">
 			<xsl:sort select="title" />
@@ -146,6 +145,9 @@
 		</xsl:for-each>
 	</xsl:template>
 	
+	<xd:doc>
+		<xd:desc>contrib: handle author/review names, comma-separated</xd:desc>
+	</xd:doc>
 	<xsl:template match="contrib">
 		<xsl:value-of select="string-name/given-names/replace(.,'(\w)\w+','$1.'), string-name/surname, string-name/suffix" separator=" "/>
 		<xsl:if test="position() lt last()">
@@ -153,6 +155,9 @@
 		</xsl:if>
 	</xsl:template>
 	
+	<xd:doc>
+		<xd:desc>@dept: output department abbreviations</xd:desc>
+	</xd:doc>
 	<xsl:template match="@dept">
 		<xsl:choose>
 			<xsl:when test=". = 'From the Editor'">
@@ -200,20 +205,32 @@
 	</xsl:template>
 	
 	<xsl:variable name="months" select="'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'"/>
+	<xd:doc>
+		<xd:desc>iss: translate issue number into month abbreviation</xd:desc>
+	</xd:doc>
 	<xsl:template match="iss">
 		<xsl:value-of select="$months[position() = current()]"/>
 	</xsl:template>
 
+	<xd:doc>
+		<xd:desc>year (named): generated from volume number</xd:desc>
+	</xd:doc>
 	<xsl:template name="year">
 		<xsl:value-of select="authority/item[1]/volume + 1947" />
 	</xsl:template>
 
+	<xd:doc>
+		<xd:desc>see_also: put in proper wrapper</xd:desc>
+	</xd:doc>
 	<xsl:template match="see_also">
 		<p>
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
 
+	<xd:doc>
+		<xd:desc>see_also/italic: translate into html emphasis</xd:desc>
+	</xd:doc>
 	<xsl:template match="see_also/italic">
 		<em>
 			<xsl:apply-templates/>
