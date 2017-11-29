@@ -24,8 +24,15 @@
 				font-family:verdana,helvetica,sans-serif;
 				font-size:14px;
 			}
+			ul {
+				margin: 6px auto 2px;
+				padding-left: 10px;
+			}
 			li {
-				list-style-type=none;
+				list-style: none;
+				text-indent: -1.5em;
+				padding-left: 1.5em;
+				padding-bottom: 3px;
 			}
 			h1 {
 				font-size:18px;
@@ -40,6 +47,13 @@
 				font-size:18px;
 				font-weight:bold;
 				color: green;
+				margin: 18px auto 2px; 
+			}
+			p {
+				margin: 3px 0px 3px 20px;
+				text-indent: -1.5em;
+				padding-left: 1.5em;
+				padding-bottom: 2px;
 			}
 		</style>
 		<xsl:text>&#x0A;</xsl:text>
@@ -71,7 +85,9 @@
 								<xsl:sort select="../issue"/>
 								<!-- Insert Department, Issue, and Page Info -->
 								<xsl:if test="./parent::item[@dept = 'Articles']">
-									<xsl:apply-templates select="../title"/>
+									<a href="{../guid}">
+										<xsl:apply-templates select="../title"/>
+									</a>
 									<xsl:text> </xsl:text>
 								</xsl:if>
 								<xsl:choose>
@@ -157,7 +173,7 @@
 											<xsl:text>DEC</xsl:text>
 										</xsl:when>
 									</xsl:choose>
-									<xsl:text> </xsl:text>
+									<xsl:text>&#x00A0;</xsl:text>
 									<xsl:value-of select="../fpage"/>
 								</a>
 								<xsl:if test="position() lt last()">
