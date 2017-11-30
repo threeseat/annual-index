@@ -60,8 +60,7 @@
 		access="free">
 		<title>X-ray sterilization with accelerators is viable in US</title>
 		<description />
-		<contrib contrib-type="aut
-			hor">
+		<contrib contrib-type="aut    hor">
 			<string-name name-style="western">
 				<surname>Boulware</surname>
 				<given-names>Chase</given-names>
@@ -6445,6 +6444,12 @@
 
 	<item dept="Readers' Forum" subdept="Correction" access="free">
 		<title>Correction</title>
+		<contrib contrib-type="author" ptstaff="yes">
+			<string-name name-style="western">
+				<surname>Day</surname>
+				<given-names>Charles</given-names>
+			</string-name>
+		</contrib>
 		<description />
 		<article-id pub-id-type="doi">10.1063/PT.3.3647</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3647</link>
@@ -6456,7 +6461,10 @@
 		<page-seq>3</page-seq>
 		<page>13_3</page>
 		<pubDate>Mon, 23 Oct 2017 03:59:27 EST</pubDate>
-		<index-cat />
+		<index-cat>biophys</index-cat>
+		<index-cat>cryst</index-cat>
+		<index-cat>inst</index-cat>
+		<index-cat>mic</index-cat>
 	</item>
 
 	<item dept="Search and Discovery" subdept="" access="">
@@ -9278,6 +9286,12 @@
 
 	<item dept="Readers' Forum" subdept="Correction" access="free">
 		<title>Correction</title>
+		<contrib contrib-type="author"  ptstaff="yes">
+			<string-name name-style="western">
+				<surname>Kramer</surname>
+				<given-names>David</given-names>
+			</string-name>
+		</contrib>
 		<description />
 		<article-id pub-id-type="doi">10.1063/PT.3.3752</article-id>
 		<link>http://physicstoday.scitation.org/doi/full/10.1063/PT.3.3752</link>
@@ -9289,7 +9303,14 @@
 		<page-seq>2</page-seq>
 		<page>15_2</page>
 		<pubDate>Tue, 24 Oct 2017 02:23:44 EST</pubDate>
-		<index-cat />
+		<index-cat>chem</index-cat>
+		<index-cat>ener</index-cat>
+		<index-cat>envir</index-cat>
+		<index-cat>ind</index-cat>
+		<index-cat>matsci</index-cat>
+		<index-cat>politic</index-cat>
+		<index-cat>soc-phys</index-cat>
+		<index-cat>tech-eng</index-cat>
 	</item>
 
 
@@ -9962,9 +9983,9 @@
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>misc</index-cat>
 		<index-cat>publish</index-cat>
-		<index-cat>soc-phys</index-cat>		
+		<index-cat>soc-phys</index-cat>
 	</item>
-	
+
 	<item dept="Readers' Forum" subdept="Commentary: The promise of polymers"
 		access="free">
 		<title>Commentary: The promise of polymers</title>
@@ -9992,7 +10013,7 @@
 		<index-cat>rheo</index-cat>
 		<index-cat>tech-eng</index-cat>
 	</item>
-	
+
 	<item dept="Readers' Forum"
 		subdept="Trapping molecules for quantum chemistry" access="free">
 		<title>Trapping molecules for quantum chemistry</title>
@@ -10013,12 +10034,12 @@
 		<page-seq>1</page-seq>
 		<page>12_1</page>
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
-		<index-cat>atomic</index-cat>		
+		<index-cat>atomic</index-cat>
 		<index-cat>chem</index-cat>
 		<index-cat>class</index-cat>
 		<index-cat>inst</index-cat>
 	</item>
-	
+
 	<item dept="Readers' Forum"
 		subdept="Heisenberg letters show courage in horrific times"
 		access="free">
@@ -10040,10 +10061,10 @@
 		<page-seq>1</page-seq>
 		<page>13_1</page>
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
-		<index-cat>hist</index-cat>		
+		<index-cat>hist</index-cat>
 		<index-cat>politic</index-cat>
 	</item>
-	
+
 	<item dept="Readers' Forum"
 		subdept="Heisenberg letters show courage in horrific times"
 		access="free">
@@ -10065,10 +10086,10 @@
 		<page-seq>1</page-seq>
 		<page>14_1</page>
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
-		<index-cat>hist</index-cat>		
-		<index-cat>politic</index-cat>	
+		<index-cat>hist</index-cat>
+		<index-cat>politic</index-cat>
 	</item>
-	
+
 	<item dept="Readers' Forum" subdept="A universal human constant?"
 		access="free">
 		<title>A universal human constant?</title>
@@ -10094,7 +10115,7 @@
 		<index-cat>soc-phys</index-cat>
 		<index-cat>statphys</index-cat>
 	</item>
-	
+
 	<item dept="Readers' Forum" subdept="Correction" access="free">
 		<title>Correction</title>
 		<contrib contrib-type="author">
@@ -10114,9 +10135,13 @@
 		<page-seq>1</page-seq>
 		<page>15_1</page>
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
-		<index-cat/>		
+		<index-cat>biog</index-cat>
+		<index-cat>nucphys</index-cat>
+		<index-cat>sociol</index-cat>
+		<index-cat>ener</index-cat>
+		<index-cat>ind</index-cat>
 	</item>
-	
+
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Weiss, Barish, and Thorne share 2017 Nobel Prize in Physics</title>
 		<description>Three architects of LIGO are honored for their successful effort to directly detect gravitational waves.</description>
@@ -10140,7 +10165,7 @@
 		<index-cat>facil</index-cat>
 		<index-cat>opt</index-cat>
 	</item>
-	
+
 	<item dept="Search and Discovery" subdept="" access="">
 		<title>Two kinds of waves from a neutron-star smashup</title>
 		<description>Gravitational and electromagnetic radiation expose a merger that triggered a gamma-ray burst and manufactured heavy elements.</description>
@@ -10163,7 +10188,7 @@
 		<index-cat>astro</index-cat>
 		<index-cat>facil</index-cat>
 	</item>
-	
+
 	<item dept="Search and Discovery" subdept="" access="free">
 		<title>Cryoelectron microscopy pioneers win chemistry Nobel</title>
 		<description>Proteins frozen in vitreous ice are now being imaged with atomic resolution.</description>
@@ -10185,9 +10210,9 @@
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>biophys</index-cat>
 		<index-cat>inst</index-cat>
-		<index-cat>mic</index-cat>		
+		<index-cat>mic</index-cat>
 	</item>
-	
+
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Cruising the seas on the wreckage of a natural disaster</title>
 		<description />
@@ -10209,9 +10234,9 @@
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>earth</index-cat>
 		<index-cat>envir</index-cat>
-		<index-cat>ocean</index-cat>		
+		<index-cat>ocean</index-cat>
 	</item>
-	
+
 	<item dept="Search and Discovery" subdept="Physics Update" access="">
 		<title>Fluid dynamics explains ancient organism behavior</title>
 		<description />
@@ -10233,9 +10258,9 @@
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>biophys</index-cat>
 		<index-cat>flu</index-cat>
-		<index-cat>rheo</index-cat>		
+		<index-cat>rheo</index-cat>
 	</item>
-	
+
 	<item dept="Issues and Events" subdept="" access="free">
 		<title>NASA sees a future with nuclear power</title>
 		<description>The space agency views reactors as options both for propulsion to Mars and as a power source for life on the red planet.</description>
@@ -10258,9 +10283,9 @@
 		<index-cat>ener</index-cat>
 		<index-cat>nucphys</index-cat>
 		<index-cat>politic</index-cat>
-		<index-cat>space</index-cat>		
+		<index-cat>space</index-cat>
 	</item>
-	
+
 	<item dept="Issues and Events" subdept="" access="">
 		<title>A spray-on material can retrofit walls to save lives in earthquakes</title>
 		<description>The cement-based layer can be applied to nonstructural masonry walls to make them bend rather than break.</description>
@@ -10282,10 +10307,10 @@
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>int</index-cat>
 		<index-cat>matsci</index-cat>
-		<index-cat>soc-phys</index-cat>		
+		<index-cat>soc-phys</index-cat>
 		<index-cat>tech-eng</index-cat>
 	</item>
-	
+
 	<item dept="Articles" subdept="" access="">
 		<title>Baryon acoustic oscillations: A cosmological ruler</title>
 		<description>A density pattern created by acoustic waves in the early universe can be seen in the distribution of galaxies and used as a standard ruler with which to measure cosmological expansion.</description>
@@ -10305,9 +10330,9 @@
 		<page-seq>1</page-seq>
 		<page>32_1</page>
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
-		<index-cat>astro</index-cat>		
+		<index-cat>astro</index-cat>
 	</item>
-	
+
 	<item dept="Articles" subdept="" access="free">
 		<title>Boosting solar energy conversion with nanofluids</title>
 		<description>Suspensions of metallic nanoparticles can harvest valuable heat from sunlight that would otherwise go to waste in a photovoltaic cell.</description>
@@ -10336,9 +10361,9 @@
 		<index-cat>ener</index-cat>
 		<index-cat>micnan</index-cat>
 		<index-cat>opt</index-cat>
-		<index-cat>tech-eng</index-cat>		
+		<index-cat>tech-eng</index-cat>
 	</item>
-	
+
 	<item dept="Articles" subdept="" access="free">
 		<title>Discovering Earth’s radiation belts</title>
 		<description>Six decades after the belts’ discovery in 1958, scientists are still finding mysterious features.</description>
@@ -10366,9 +10391,9 @@
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>astro</index-cat>
 		<index-cat>hist</index-cat>
-		<index-cat>space</index-cat>		
+		<index-cat>space</index-cat>
 	</item>
-	
+
 	<item dept="Books" subdept="" access="free">
 		<title>Ripples in Spacetime: Einstein, Gravitational Waves, and the Future of Astronomy</title>
 		<description />
@@ -10396,9 +10421,9 @@
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>ap</index-cat>
 		<index-cat>po</index-cat>
-		<index-keyword>Ripples</index-keyword>	
+		<index-keyword>Ripples</index-keyword>
 	</item>
-	
+
 	<item dept="Books" subdept="" access="free">
 		<title>Gravity’s Kiss: The Detection of Gravitational Waves</title>
 		<description />
@@ -10425,9 +10450,9 @@
 		<page>53_1</page>
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>hp</index-cat>
-		<index-keyword>Gravity’s</index-keyword>		
+		<index-keyword>Gravity’s</index-keyword>
 	</item>
-	
+
 	<item dept="Books" subdept="" access="free">
 		<title>Introduction to Modern Magnetohydrodynamics</title>
 		<description />
@@ -10454,9 +10479,9 @@
 		<page>54_1</page>
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>pf</index-cat>
-		<index-keyword>Introduction</index-keyword>		
+		<index-keyword>Introduction</index-keyword>
 	</item>
-	
+
 	<item dept="New Products" subdept="" access="free">
 		<title>Focus on software and data acquisition</title>
 		<description />
@@ -10476,9 +10501,9 @@
 		<page-seq>1</page-seq>
 		<page>56_1</page>
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
-		<index-cat/>
+		<index-cat />
 	</item>
-	
+
 	<item dept="Obituaries" subdept="" access="free">
 		<title>Ronald William Prest Drever</title>
 		<description />
@@ -10511,7 +10536,7 @@
 		<index-cat>obit</index-cat>
 		<index-lastname>Drever</index-lastname>
 	</item>
-	
+
 	<item dept="Obituaries" subdept="" access="free">
 		<title>Peter Mansfield</title>
 		<description />
@@ -10538,7 +10563,7 @@
 		<index-cat>obit</index-cat>
 		<index-lastname>Mansfield</index-lastname>
 	</item>
-	
+
 	<item dept="Quick Study" subdept="" access="free">
 		<title>Trigonometry for the heavens</title>
 		<description>The stars and planets move not on a flat surface but on the celestial sphere. So ordinary plane trigonometry isn’t adequate to describe their motion.</description>
@@ -10560,9 +10585,9 @@
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>astro</index-cat>
 		<index-cat>hist</index-cat>
-		<index-cat>theo</index-cat>		
+		<index-cat>theo</index-cat>
 	</item>
-	
+
 	<item dept="Back Scatter" subdept="" access="">
 		<title>Liquid diodes</title>
 		<description />
@@ -10584,14 +10609,15 @@
 		<pubDate>Tue, 21 Nov 2017 03:08:25 EST</pubDate>
 		<index-cat>flu</index-cat>
 		<index-cat>inst</index-cat>
-		<index-cat>rheo</index-cat>		
+		<index-cat>rheo</index-cat>
 	</item>
 
 
 
 
-<!--Begin Subject Category Listings
--->	<categories>
+	<!--Begin Subject Category Listings
+-->
+	<categories>
 		<category>
 			<title>Acoustics</title>
 			<code>acou</code>
