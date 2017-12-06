@@ -55,6 +55,8 @@
 		</style>
 		<xsl:text>&#x0A;</xsl:text>
 	</xsl:variable>
+	
+	<xsl:key name="headingID" match="category" use="normalize-space(title)"/>
 
 	<!--TRANSFORM BEGINS-->
 
@@ -81,7 +83,10 @@
 		<xsl:for-each select="/authority/categories/category">
 			<xsl:sort select="title" />
 			<h3>
-				<xsl:value-of select="title" />
+				<xsl:attribute name="id" select="generate-id()">
+<!--					<xsl:text>s</xsl:text><xsl:number/>-->
+				</xsl:attribute>
+				<xsl:value-of select="normalize-space(title)" />
 			</h3>
 			<xsl:apply-templates select="see_also"/>
 			<xsl:if test="exists(/authority/item[index-cat = current()/code])">
@@ -240,6 +245,22 @@
 		<em>
 			<xsl:apply-templates/>
 		</em>
+	</xsl:template>
+	
+	<xd:doc>
+		<xd:desc>see_also/text: link titles to appropriate section headings</xd:desc>
+	</xd:doc>
+	<xsl:template match="see_also/text()">
+		<xsl:variable name="root" select="/"/>
+		<xsl:if test="starts-with(., ' ')">
+			<xsl:text> </xsl:text>
+		</xsl:if>
+		<xsl:for-each select="tokenize(normalize-space(.), ';\s*')">
+			<a href="#{generate-id(key('headingID', normalize-space(.), $root))}"><xsl:value-of select="."/></a>
+			<xsl:if test="position() lt last()">
+				<xsl:text>; </xsl:text>
+			</xsl:if>
+		</xsl:for-each>
 	</xsl:template>
 	
 	<xd:doc>
