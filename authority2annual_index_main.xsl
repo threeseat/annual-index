@@ -90,7 +90,8 @@
 					<xsl:for-each-group select="/authority/item[index-cat = current()/code]" group-by="title">
 						<xsl:sort select="iss" data-type="number"/>
 						<xsl:sort select="fpage" data-type="number"/>
-						<xsl:sort select="page-seq" data-type="number"/>
+						<!--<xsl:sort select="page-seq" data-type="number"/>-->
+						<xsl:sort select="title"/>
 						<li>
 							<!-- To get continuous linking across title and authors (first letter's, in packet), process shared info inside for-each loop -->
 							<xsl:for-each select="current-group()">
@@ -106,9 +107,13 @@
 											</xsl:otherwise>
 										</xsl:choose>
 										<!-- Avoid '?,' and '!' at end of titles, but only if displayed authors -->
+										<!-- Put comma inside any closing quote at end of title -->
 										<xsl:if test="contrib[matches(@contrib-type, '^author|reviewer') and not(@ptstaff = 'yes')]">
 											<xsl:choose>
 												<xsl:when test="ends-with(title, '?') or ends-with(title, '!')">
+													<xsl:text> </xsl:text>
+												</xsl:when>
+												<xsl:when test="ends-with(title, '&quot;') or ends-with(title, '&#x201D;')">
 													<xsl:text> </xsl:text>
 												</xsl:when>
 												<xsl:otherwise>
@@ -241,28 +246,42 @@
 		<xd:desc>title/italic, article: toggle off html emphasis</xd:desc>
 	</xd:doc>
 	<xsl:template match="title/italic" mode="article">
-		<xsl:apply-templates/>
+		<xsl:apply-templates mode="quote_test"/>
 	</xsl:template>
 	
 	<xd:doc>
 		<xd:desc>title/text, article: use html emphasis</xd:desc>
 	</xd:doc>
 	<xsl:template match="title/text()" mode="article">
-		<em><xsl:value-of select="."/></em>
+		<em><xsl:apply-templates select="." mode="quote_test"/></em>
 	</xsl:template>
 	
 	<xd:doc>
 		<xd:desc>title/italic, nonarticle: use html emphasis</xd:desc>
 	</xd:doc>
 	<xsl:template match="title/italic" mode="nonarticle">
-		<em><xsl:apply-templates/></em>
+		<em><xsl:apply-templates mode="quote_test"/></em>
 	</xsl:template>
 	
 	<xd:doc>
 		<xd:desc>title/text, nonarticle: no emphasis</xd:desc>
 	</xd:doc>
 	<xsl:template match="title/text()" mode="nonarticle">
-		<xsl:value-of select="."/>
+		<xsl:apply-templates select="." mode="quote_test"/>
+	</xsl:template>
+	
+	<xd:doc>
+		<xd:desc>text, quote_test: put comma inside closing quote if end of title</xd:desc>
+	</xd:doc>
+	<xsl:template match="text()" mode="quote_test">
+		<xsl:choose>
+			<xsl:when test="not(following-sibling::node())">
+				<xsl:value-of select="replace(., '(&quot;|&#x201D;)$', ',$1')"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="."/>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 	
 </xsl:stylesheet>
